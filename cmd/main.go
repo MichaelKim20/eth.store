@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	ethstore "github.com/gobitfly/eth.store"
-	"github.com/gobitfly/eth.store/version"
+	ethstore "github.com/bosagora/eth.store"
+	"github.com/bosagora/eth.store/version"
 	"github.com/shopspring/decimal"
 )
 

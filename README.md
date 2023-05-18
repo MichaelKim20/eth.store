@@ -9,7 +9,7 @@ ETH.STORE (Ether Staking Offered Rate) represents the average financial return v
 
 ```bash
 # build and install binary from source via go
-go install github.com/gobitfly/eth.store
+go install github.com/bosagora/eth.store
 
 eth.store -h
 Usage of /bin/eth.store:
@@ -39,7 +39,7 @@ day: 498 (2022-04-13 12:00:23 +0000 UTC), epochs: 112050-112274, validators: 342
 day: 499 (2022-04-14 12:00:23 +0000 UTC), epochs: 112275-112499, validators: 343623, apr: 0.048898885, effectiveBalanceSumGwei: 10995834000000000, totalRewardsSumWei: 1473106903824000000000, consensusRewardsGwei: 1473106903824 (100%), txFeesSumWei: 0
 
 # build and run docker-image and output json
-git clone github.com/gobitfly/eth.store
+git clone github.com/bosagora/eth.store
 cd eth.store
 docker build . -t eth.store
 docker run --network=host eth.store -cons.address="http://some-consensus-node:4000" -exec.address="http://some-execution-node:8545" -days="0,10" -json
